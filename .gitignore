@@ -10,6 +10,9 @@ build/
 # Secrets
 .env
 
+# Local-only material (case statement and personal notes)
+docs/
+
 # Editors / OS
 .vscode/
 .idea/
