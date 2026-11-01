@@ -1,7 +1,7 @@
 import os
 
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import BadRequestError, OpenAI
 
 from emporio_da_musica_agent.tools import TOOLS, run_tool
 
@@ -22,13 +22,22 @@ client = OpenAI(
 )
 
 
+def _ask_model(messages: list[dict]):
+    """Call the model. Groq answers 400 when the model builds a tool call that breaks the
+    schema; that is random, so one more try usually fixes it."""
+    try:
+        return client.chat.completions.create(model=MODEL, messages=messages, tools=TOOLS)
+    except BadRequestError:
+        return client.chat.completions.create(model=MODEL, messages=messages, tools=TOOLS)
+
+
 def reply(messages: list[dict]) -> str:
     """Answer the last user message. `messages` is the whole conversation and is updated in place.
 
     Loop: ask the model -> if it requests tools, run them and ask again -> stop at a text answer.
     """
     for _ in range(MAX_ITERATIONS):
-        response = client.chat.completions.create(model=MODEL, messages=messages, tools=TOOLS)
+        response = _ask_model(messages)
         message = response.choices[0].message
 
         if not message.tool_calls:  # final answer

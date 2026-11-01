@@ -58,7 +58,8 @@ def main() -> None:
             print(f"\nAgente: {reply(messages)}\n")
         except Exception as error:  # e.g. network down, invalid key
             messages.pop()  # drop the unanswered question so the history stays valid
-            print(f"\n(erro ao falar com o modelo: {error})\n")
+            print(f"\nAgente: Tive um problema técnico agora. Pode repetir a pergunta? "
+                  f"Se continuar, fale com a gente no WhatsApp (67) 3341-4444.\n(detalhe: {error})\n")
 
 
 if __name__ == "__main__":
