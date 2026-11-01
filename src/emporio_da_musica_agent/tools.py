@@ -174,9 +174,12 @@ TOOLS = [
             "parameters": {
                 "type": "object",
                 "properties": {
-                    "category": {"type": "string", "enum": CATEGORIES, "description": "Categoria do produto."},
-                    "max_price": {"type": "number", "description": "Preço máximo em reais."},
-                    "text": {"type": "string", "description": "Trecho do nome (marca ou modelo)."},
+                    # Optional filters accept null: the model sends null for unused filters,
+                    # and Groq rejects the call if the schema does not allow it.
+                    "category": {"type": ["string", "null"], "enum": CATEGORIES + [None],
+                                 "description": "Categoria do produto."},
+                    "max_price": {"type": ["number", "null"], "description": "Preço máximo em reais."},
+                    "text": {"type": ["string", "null"], "description": "Trecho do nome (marca ou modelo)."},
                 },
             },
         },

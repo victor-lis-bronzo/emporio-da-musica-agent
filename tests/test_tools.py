@@ -1,8 +1,11 @@
+import json
+
 from emporio_da_musica_agent.tools import (
     get_order,
     get_policy,
     get_product_details,
     list_active_promotions,
+    run_tool,
     search_products,
 )
 
@@ -99,3 +102,12 @@ def test_policy_section_exists():
 
 def test_unknown_policy_section_returns_error():
     assert "erro" in get_policy("inexistente")
+
+
+# ---- dispatcher ----
+
+def test_run_tool_accepts_null_filters():
+    # The model sends null for filters it does not use ("o que vocês vendem?")
+    result = json.loads(run_tool("search_products", '{"category": null, "max_price": null, "text": null}'))
+    assert "erro" not in result
+    assert result["produtos"]
