@@ -83,10 +83,13 @@ def search_products(category: str | None = None, max_price: float | None = None,
     if text:
         sql += " AND p.name LIKE ?"
         params.append(f"%{text}%")
-    sql += " ORDER BY p.price_brl LIMIT 10"
-
-    rows = DB.execute(sql, params).fetchall()
-    return {"produtos": [_product_summary(r) for r in rows], "total_retornado": len(rows)}
+    rows = DB.execute(sql + " ORDER BY p.price_brl", params).fetchall()
+    return {
+        "produtos": [_product_summary(r) for r in rows[:10]],  # at most 10, to save tokens
+        "total_encontrado": len(rows),
+        "aviso": "Lista cortada nos 10 mais baratos; diga ao cliente que há mais opções."
+        if len(rows) > 10 else None,
+    }
 
 
 def get_product_details(name: str) -> dict:

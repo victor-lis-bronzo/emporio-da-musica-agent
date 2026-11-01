@@ -111,3 +111,10 @@ def test_run_tool_accepts_null_filters():
     result = json.loads(run_tool("search_products", '{"category": null, "max_price": null, "text": null}'))
     assert "erro" not in result
     assert result["produtos"]
+
+
+def test_search_reports_total_when_list_is_cut():
+    result = search_products(category="Violões")  # more than 10 sellable guitars
+    assert len(result["produtos"]) == 10
+    assert result["total_encontrado"] > 10
+    assert result["aviso"]
