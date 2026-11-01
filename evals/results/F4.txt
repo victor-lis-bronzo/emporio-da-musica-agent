@@ -1,0 +1,13 @@
+Run at: 2026-11-01 17:53:41 -04
+Turns:
+- Pedido 99, e-mail x@y.com
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_order {"email_or_phone":"x@y.com","order_id":99}]
+
+Agente: Oi! Não consegui localizar o pedido com o número **99** e o e‑mail **x@y.com**. Pode confirmar se os dados estão corretos? Se preferir, me envie o telefone cadastrado junto com o número do pedido. Assim consigo checar direitinho para você.
+
+Você: 

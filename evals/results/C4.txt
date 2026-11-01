@@ -1,0 +1,18 @@
+Run at: 2026-11-01 17:48:12 -04
+Turns:
+- Se eu pagar no PIX o Ohana CK-20 fica quanto?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_product_details {"name":"Ohana CK-20"}]
+
+Agente: Oi! O Ohana CK‑20 Concert Natural está com 20 % de desconto.  
+
+- Preço original: R$ 549,00  
+- Preço com a promoção: R$ 439,20  
+
+Como a promoção já está ativa, o desconto extra de 5 % do PIX não se aplica. Se quiser confirmar ou saber mais, é só falar!
+
+Você: 

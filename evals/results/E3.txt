@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:51:29 -04
+Turns:
+- Qual o WhatsApp da loja?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: O WhatsApp da Empório da Música é (67) 3341‑4444. Qualquer coisa, é só chamar por lá!
+
+Você: 

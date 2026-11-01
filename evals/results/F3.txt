@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:53:19 -04
+Turns:
+- Pedido 8, e-mail errado@jmail.com
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Não consegui localizar seu pedido com os dados que você enviou. Poderia confirmar o e‑mail ou telefone cadastrado e o número do pedido, por favor? Assim consigo verificar direitinho para você.
+
+Você: 

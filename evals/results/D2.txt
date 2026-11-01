@@ -1,0 +1,13 @@
+Run at: 2026-11-01 17:49:19 -04
+Turns:
+- Um produto de R$150 dá pra parcelar em 3x?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_policy {"section":"formas_de_pagamento"}]
+
+Agente: Sim! Um produto de R$150 pode ser parcelado em até 3 vezes sem juros. Cada parcela ficaria em torno de R$50, que atende o valor mínimo permitido. 🚀
+
+Você: 

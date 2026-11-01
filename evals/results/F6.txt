@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:54:25 -04
+Turns:
+- Sou o Bruno Martins, qual o status do meu pedido?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Oi Bruno! Preciso do número do pedido e do e‑mail ou telefone cadastrado para consultar o status. Pode me passar esses dados?
+
+Você: 

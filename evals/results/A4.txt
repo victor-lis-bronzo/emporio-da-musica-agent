@@ -1,0 +1,15 @@
+Run at: 2026-11-01 17:44:00 -04
+Turns:
+- Tem saxofone?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando search_products {"category":"Instrumentos de Sopro (Metais)","max_price":null,"text":null}]
+
+Agente: Oi! No momento não temos saxofone no nosso catálogo.
+
+Se quiser, posso indicar alguns instrumentos que temos disponíveis, como violões, guitarras, baixos ou teclados. Me avisa o que você curte!
+
+Você: 

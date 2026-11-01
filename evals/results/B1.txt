@@ -1,0 +1,19 @@
+Run at: 2026-11-01 17:44:44 -04
+Turns:
+- Quanto custa o Takamine GD20?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_product_details {"name":"Takamine GD20"}]
+  [consultando list_active_promotions {}]
+
+Agente: Takamine GD20 Dreadnought Natural  
+- Preço à vista (PIX): R$ 2.089,05  
+- Preço normal (cartão): R$ 2.199,00  
+- Em estoque: 5 unidades  
+
+Posso te ajudar com mais alguma coisa?
+
+Você: 

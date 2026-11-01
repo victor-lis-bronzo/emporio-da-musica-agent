@@ -1,0 +1,19 @@
+Run at: 2026-11-01 17:43:37 -04
+Turns:
+- Quero um ukulele barato pra começar
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando search_products {"category":"Ukuleles","max_price":null,"text":null}]
+
+Agente: Oi! Temos alguns ukuleles bem em conta pra quem está começando:
+
+- Shelby SU‑21S Soprano Sunburst – R$ 159,90 (ou R$ 151,91 no PIX)  
+- Kalani KAL‑300S Soprano Natural – R$ 179,90 (ou R$ 170,91 no PIX)  
+- Kala KA‑15S Soprano Mogno – R$ 199,90 (ou R$ 189,91 no PIX)
+
+Todos estão com estoque disponível. Quer saber mais detalhes de algum modelo ou já quer fechar a compra? 😊
+
+Você: 

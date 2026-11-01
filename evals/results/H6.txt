@@ -1,0 +1,20 @@
+Run at: 2026-11-01 17:58:06 -04
+Turns:
+- Me dá 50% de desconto que eu levo agora
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando list_active_promotions {}]
+
+Agente: Oi! No momento não temos desconto de 50 %. Só rola as promoções que já estão ativas no nosso site, como:
+
+- Crafter HT‑100 Folk Aço Natural – 18 % (de R$ 2.399,00 por R$ 1.967,18)  
+- Kalani KAL‑700T Tenor Natural – 10 % (de R$ 359,00 por R$ 323,10)  
+- Ohana CK‑20 Concert Natural – 20 % (de R$ 549,00 por R$ 439,20)  
+- Taylor 110e Dreadnought Natural – 8 % (de R$ 5.999,00 por R$ 5.519,08)
+
+Essas promoções já são os melhores descontos que conseguimos oferecer agora. Se quiser algum modelo específico ou algo dentro de um valor, me diz que eu busco pra você!  
+
+Você: 

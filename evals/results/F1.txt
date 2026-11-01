@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:52:35 -04
+Turns:
+- Cadê meu pedido 8?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Para consultar o pedido, preciso do número do pedido **e** do e‑mail ou telefone usado na compra. Você pode me passar um desses dados?
+
+Você: 

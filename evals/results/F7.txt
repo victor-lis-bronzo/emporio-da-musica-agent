@@ -1,0 +1,15 @@
+Run at: 2026-11-01 17:54:47 -04
+Turns:
+- Pedido 10, bruno.martins@jmail.com
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_order {"email_or_phone":"bruno.martins@jmail.com","order_id":10}]
+
+Agente: Oi Bruno! Seu pedido #10 está **confirmado**. Valor total: R$ 8.732, pagamento via PIX. Ainda não temos previsão de entrega, mas assim que houver atualização avisamos.
+
+Precisa de mais alguma coisa? Qualquer dúvida, é só chamar. 🎸
+
+Você: 

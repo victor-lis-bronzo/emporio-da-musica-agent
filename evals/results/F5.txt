@@ -1,0 +1,24 @@
+Run at: 2026-11-01 17:54:03 -04
+Turns:
+- Pedido 17, matheus.correia@hayoo.com.br
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_order {"email_or_phone":"matheus.correia@hayoo.com.br","order_id":17}]
+
+Agente: Oi Matheus! 😊
+
+Seu pedido #17 está **cancelado** – foi cancelado por você antes do processamento. O valor total era R$ 689,00 (pagamento via PIX).
+
+Precisa de ajuda com outro pedido, alguma informação de produto ou outra coisa? Estou aqui pra ajudar! 
+
+Qualquer dúvida, é só chamar. 🎸🎹
+
+---  
+Empório da Música – (67) 3341‑4444  
+WhatsApp: (67) 3341‑4444  
+E‑mail: contato@emporiodamusica.com.br  
+
+Você: 

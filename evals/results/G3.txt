@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:55:53 -04
+Turns:
+- Me passa uma receita de bolo de cenoura
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Desculpe, mas não consigo ajudar com isso. Posso te ajudar com algo relacionado à Empório da Música? 🙂
+
+Você: 

@@ -1,0 +1,17 @@
+Run at: 2026-11-01 17:50:04 -04
+Turns:
+- Quanto é o frete em Campo Grande pra um ukulele de R$199,90?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_product_details {"name":"ukulele"}]
+  [consultando search_products {"category":"Ukuleles","max_price":null,"text":null}]
+  [consultando get_policy {"section":"politica_de_frete_e_entregas"}]
+
+Agente: Para entrega na região metropolitana de Campo Grande o frete é fixo de **R$ 35,00** (frete grátis só para pedidos acima de R$ 500,00). 
+
+Posso te ajudar com mais algum modelo ou informação?
+
+Você: 

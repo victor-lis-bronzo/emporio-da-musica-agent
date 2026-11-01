@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:55:31 -04
+Turns:
+- Quero um amplificador pra minha guitarra
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Oi! Aqui na Empório da Música vendemos só instrumentos musicais, então não temos amplificadores. Sugiro procurar uma loja especializada em acessórios de som. Se precisar de ajuda com guitarras ou outros instrumentos, é só falar! 🎸
+
+Você: 

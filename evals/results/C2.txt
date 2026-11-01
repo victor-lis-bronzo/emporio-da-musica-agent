@@ -1,0 +1,20 @@
+Run at: 2026-11-01 17:47:26 -04
+Turns:
+- O Crafter HT-100 no PIX tem desconto?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_product_details {"name":"Crafter HT-100"}]
+
+Agente: Oi! O Crafter HT‑100 está em promoção:  
+- preço original: R$ 2 399,00  
+- desconto da promoção: 18 %  
+- preço final (promo): R$ 1 967,18  
+
+O desconto de 5 % no PIX **não se aplica**, pois a promoção já está ativa.
+
+Posso te ajudar com mais algum produto ou informação?
+
+Você: 

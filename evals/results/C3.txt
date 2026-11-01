@@ -1,0 +1,16 @@
+Run at: 2026-11-01 17:47:49 -04
+Turns:
+- A Black Friday do Yamaha C70 ainda vale?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando list_active_promotions {}]
+  [consultando get_product_details {"name":"Yamaha C70"}]
+
+Agente: Oi! Tudo bem?  
+
+A promoção de Black Friday do Yamaha C70 não está mais ativa. O preço atual é R$ 849,00 à vista ou R$ 806,55 no PIX. Se precisar de mais alguma coisa ou quiser fechar a compra, é só falar!
+
+Você: 

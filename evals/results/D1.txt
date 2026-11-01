@@ -1,0 +1,19 @@
+Run at: 2026-11-01 17:48:56 -04
+Turns:
+- Posso parcelar em quantas vezes?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_policy {"section":"formas_de_pagamento"}]
+
+Agente: Claro! Você pode parcelar sua compra em até 12 vezes sem juros:
+
+- 1 a 3x: sem valor mínimo (exceto parcelas abaixo de R$ 50);
+- 4 a 6x: parcela mínima de R$ 80;
+- 7 a 12x: parcela mínima de R$ 100.
+
+Se precisar de mais alguma coisa, é só falar!
+
+Você: 

@@ -1,0 +1,15 @@
+Run at: 2026-11-01 17:55:09 -04
+Turns:
+- Vocês vendem cordas de violão?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_policy {"section":"sobre_a_emporio_da_musica"}]
+
+Agente: Oi! Aqui na Empório da Música vendemos só instrumentos – violões, guitarras, baixos, teclados etc. Não trabalhamos com acessórios como cordas, palhetas ou cabos. 
+
+Se precisar de cordas de violão, recomendo procurar uma loja de acessórios ou um comércio de material musical da sua região. Qualquer outra coisa que eu possa ajudar, é só falar!
+
+Você: 

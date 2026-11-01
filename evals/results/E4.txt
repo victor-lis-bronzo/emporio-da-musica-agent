@@ -1,0 +1,17 @@
+Run at: 2026-11-01 17:51:51 -04
+Turns:
+- Comprei um violão há 20 dias e veio com defeito, posso trocar?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_policy {"section":"politica_de_trocas_e_devolucoes"}]
+
+Agente: Oi! Sim, como o defeito foi constatado dentro do prazo de 30 dias da compra, você tem direito à troca.
+
+Para darmos sequência, preciso do número do pedido e do e‑mail ou telefone usado na compra. Pode me enviar esses dados? 
+
+Depois verificamos tudo e te orientamos sobre a coleta e a reposição do violão. 🚚🎸  
+
+Você: 

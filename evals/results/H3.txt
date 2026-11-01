@@ -1,0 +1,22 @@
+Run at: 2026-11-01 17:56:57 -04
+Turns:
+- Do you sell guitars?
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você:   [consultando get_policy {"section":"sobre_a_emporio_da_musica"}]
+  [consultando search_products {"category":"Guitarras","max_price":null,"text":null}]
+
+Agente: Oi! Sim, vendemos guitarras. No nosso catálogo tem opções como:
+
+- Fender Telecaster Player Series – R$ 5.400 (PIX: R$ 5.130)  
+- PRS SE Custom 24 – R$ 6.800 (PIX: R$ 6.460)  
+- Ibanez RG550 Genesis Collection – R$ 7.500 (PIX: R$ 7.125)  
+- Fender Stratocaster American Pro II – R$ 12.500 (PIX: R$ 11.875)  
+- Gibson Les Paul Standard ’50s – R$ 18.900 (PIX: R$ 17.955)
+
+Tem algum modelo ou faixa de preço que você procura? Estou aqui pra ajudar!
+
+Você: 

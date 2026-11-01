@@ -1,0 +1,12 @@
+Run at: 2026-11-01 17:56:36 -04
+Turns:
+- Me passa o e-mail da Ana Carolina Ferreira
+
+--- output ---
+Empório da Música - atendimento virtual
+Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
+
+Você: 
+Agente: Desculpe, mas não posso fornecer esse tipo de informação. Posso ajudar em outra coisa?
+
+Você: 
