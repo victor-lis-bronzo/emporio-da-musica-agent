@@ -1,4 +1,4 @@
-Run at: 2026-11-01 17:51:51 -04
+Run at: 2026-11-02 13:23:01 -04
 Turns:
 - Comprei um violão há 20 dias e veio com defeito, posso trocar?
 
@@ -8,10 +8,12 @@ Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair
 
 Você:   [consultando get_policy {"section":"politica_de_trocas_e_devolucoes"}]
 
-Agente: Oi! Sim, como o defeito foi constatado dentro do prazo de 30 dias da compra, você tem direito à troca.
+Agente: Oi! Sim, como o defeito foi percebido há 20 dias, ainda está dentro do prazo de 30 dias para troca por defeito de fabricação.
 
-Para darmos sequência, preciso do número do pedido e do e‑mail ou telefone usado na compra. Pode me enviar esses dados? 
+Para iniciarmos a troca, preciso do número do seu pedido e do e‑mail ou telefone que foi usado na compra. Assim consigo validar tudo no sistema e gerar a autorização de devolução.
 
-Depois verificamos tudo e te orientamos sobre a coleta e a reposição do violão. 🚚🎸  
+Depois disso, basta enviar o violão (na embalagem original, sem uso e com acessórios) para a gente. O frete de devolução corre por nossa conta.
+
+Qual é o número do pedido e o e‑mail/telefone cadastrado? Assim já avançamos.
 
 Você: 

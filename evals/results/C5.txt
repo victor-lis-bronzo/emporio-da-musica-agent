@@ -1,4 +1,4 @@
-Run at: 2026-11-01 17:48:35 -04
+Run at: 2026-11-02 13:22:13 -04
 Turns:
 - Vai ter Black Friday esse mês?
 
@@ -6,7 +6,8 @@ Turns:
 Empório da Música - atendimento virtual
 Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
 
-Você: 
-(erro ao falar com o modelo: Error code: 400 - Tool call validation failed: tool call validation failed: parameters for tool get_policy did not match schema: errors: [`/section`: value must be one of 'sobre_a_emporio_da_musica', 'horario_de_funcionamento', 'formas_de_pagamento', 'politica_de_trocas_e_devolucoes', 'politica_de_frete_e_entregas', 'promocoes_e_descontos', 'atendimento_via_whatsapp', 'garantia', 'privacidade_e_protecao_de_dados', 'disposicoes_finais'])
+Você:   [consultando get_policy {"section":"promocoes_e_descontos"}]
+
+Agente: Sim! A Black Friday acontece em novembro e traz descontos de 15 % a 30 % em todo o catálogo. O desconto de 5 % no pagamento por PIX não vale sobre os preços já promocionais. Se precisar de alguma sugestão ou quiser saber preços de algum instrumento, é só falar!
 
 Você: 

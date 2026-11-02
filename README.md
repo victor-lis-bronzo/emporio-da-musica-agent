@@ -13,6 +13,7 @@ uv sync
 cp .env.example .env        # then put your key in GROQ_API_KEY
 uv run emporio-da-musica-agent
 uv run pytest               # tests for the tools (no API key needed)
+uv run python evals/run_scenarios.py   # optional: 41 scripted scenarios against the real model (needs the API key)
 ```
 
 Inside the chat: `/nova` starts a new conversation, `/salvar` saves it to `examples/` as markdown, `/sair` quits. Every tool the agent decides to call is printed as `[consultando ...]`.
@@ -79,7 +80,7 @@ In [`examples/`](examples/), generated with the CLI's `/salvar` (tool consultati
 - The model sometimes answers from the prompt instead of calling a tool when the rule is written there (e.g. return deadlines). Moving those rules out of the prompt into `get_policy` only would be safer.
 - The current time is fixed when the conversation starts.
 - Long conversations may hit the free tier's tokens-per-minute limit; next step is summarising old turns.
-- No automated evaluation of the model's answers (only the tools are tested). With more time: a small set of scripted conversations with expected tool calls.
+- Evaluation is semi-automatic: `evals/run_scenarios.py` runs 41 scripted scenarios against the real model, and the transcripts were judged by an LLM (not a human) against the data, see `evals/report.md`. First run: 33 PASS / 7 PARTIAL / 1 FAIL; after the fixes, the 8 non-passing scenarios were re-run: 37 PASS / 4 PARTIAL. Still open: alternatives for a discontinued 7-string guitar are not 7-strings, Black Friday is stated as fact without saying nothing is active now, the defect-exchange answer invents a return procedure, and a late order is not always flagged as late. The other 33 results were not repeated after the fixes. With more time: automatic assertions on tool calls and a human review of the judgments.
 - Answers vary between runs (LLM); the examples are real runs, not curated outputs.
 - Next steps: LangGraph once the tool set grows, embedding retrieval if the policies grow, a web UI, persistent history with consent, handoff to a human agent.
 
@@ -90,7 +91,7 @@ I used **Claude Code** (CLI) throughout, as a pair programmer, with this workflo
 1. **Analysis first:** Claude read the case statement and audited the CSVs and the policy PDF to list the traps (stock 0, inactive promotions, PIX not stacking, contradictory phone numbers and instalments, orders with wrong totals, LGPD).
 2. **Decisions before code:** each technical choice was discussed and recorded as a short decision record before implementing.
 3. **Step-by-step implementation:** one small step per commit (database, tools, tests, prompt, agent loop, CLI). Claude drafted the code, explained it, and I reviewed and ran it.
-4. **Test-driven checks:** the business rules are covered by `pytest`. Then I ran 10 manual questions against the real model; the problems found (invented services, tables in a chat context, wrong name taken from an e-mail, deadlines not compared to today's date) were fixed in the prompt in separate commits.
+4. **Test-driven checks:** the business rules are covered by `pytest`. Then I ran 10 manual questions against the real model; the problems found (invented services, tables in a chat context, wrong name taken from an e-mail, deadlines not compared to today's date) were fixed in the prompt in separate commits. After that, I had Claude write 41 scripted scenarios (`evals/scenarios.json`, runner `evals/run_scenarios.py`) and judge the transcripts into `evals/report.md`; the failures found (a schema error with no recovery, silent truncation at 10 results, invented reservation service, skipped order lookup) were fixed in three more commits.
 
 ## Data
 

@@ -1,4 +1,4 @@
-Run at: 2026-11-01 17:46:19 -04
+Run at: 2026-11-02 13:21:47 -04
 Turns:
 - Quanto custa o Martin D-28?
 
@@ -7,13 +7,11 @@ Empório da Música - atendimento virtual
 Comandos: /nova (nova conversa), /salvar (grava a conversa em examples/), /sair 
 
 Você:   [consultando get_product_details {"name":"Martin D-28"}]
-  [consultando list_active_promotions {}]
 
-Agente: Oi! Tudo bem? O Martin D‑28 Dreadnought Natural está com:
+Agente: O Martin D‑28 Dreadnought Natural está por **R$ 11.499,00** à vista ou **R$ 10.924,05** no pagamento via PIX.
 
-- Preço à vista: R$ 11.499,00  
-- Preço no PIX (5 % de desconto): R$ 10.924,05  
+Tem também a versão elétrica Martin D‑28E, que custa **R$ 12.000,00** à vista ou **R$ 11.400,00** no PIX.
 
-Tem 2 unidades em estoque. Posso ajudar com mais alguma coisa?
+Posso te ajudar com mais alguma informação?
 
 Você: 
